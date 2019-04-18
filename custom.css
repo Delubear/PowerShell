@@ -383,7 +383,7 @@ ts-mention {
         color: var(--text-bright) !important; }
       .client_channels_list_container #col_channels .p-channel_sidebar__link, .client_channels_list_container #col_channels .p-channel_sidebar__channel {
         color: var(--text) !important; }
-        .client_channels_list_container #col_channels .p-channel_sidebar__link:hover, .client_channels_list_container #col_channels .p-channel_sidebar__link:link, .client_channels_list_container #col_channels .p-channel_sidebar__link:visited, .client_channels_list_container #col_channels .p-channel_sidebar__channel:hover, .client_channels_list_container #col_channels .p-channel_sidebar__channel:link, .client_channels_list_container #col_channels .p-channel_sidebar__channel:visited {
+        .client_channels_list_container #col_channels .p-channel_sidebar__link:hover, .client_channels_list_container #col_channels .p-channel_sidebar__link:link, .client_channels_list_container #col_channels .p-channel_sidebar__link:visited, .client_channels_list_container #col_channels, .client_channels_list_container #col_channels .p-channel_sidebar__channel:link, .client_channels_list_container #col_channels .p-channel_sidebar__channel:visited {
           color: var(--text) !important; }
         .client_channels_list_container #col_channels .p-channel_sidebar__link:hover, .client_channels_list_container #col_channels {
           background-color: var(--background-hover) !important;
