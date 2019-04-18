@@ -390,7 +390,7 @@ ts-mention {
           border-color: transparent; }
         .client_channels_list_container #col_channels .p-channel_sidebar__link--unread, .client_channels_list_container #col_channels .p-channel_sidebar__channel--unread {
           color: var(--text-bright) !important; }
-        .client_channels_list_container #col_channels .p-channel_sidebar__link--selected, .client_channels_list_container #col_channels .p-channel_sidebar__channel--selected {
+        .client_channels_list_container #col_channels .p-channel_sidebar__link--selected, .client_channels_list_container #col_channels {
           background: var(--background) !important;
           border: solid var(--border-bright);
           border-width: 1px 1px 1px 0;
