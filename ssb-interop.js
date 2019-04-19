@@ -131,6 +131,8 @@ color: var(--primary) !important;
 color: #1264a3 !important;
 }
 
+
+
 .p-channel_sidebar__channel:hover {
     background-color: var(--green) !important;
     background: var(--green) !important;
@@ -167,12 +169,16 @@ color: #1264a3 !important;
     color: var(--black) !important;
 }
 
+.p-channel_sidebar__channel--im:hover > .c-presence--active  {
+    color: var(--black) !important;
+}
+
 
 .c-message_kit__file__meta__text {
 color: var(--accent);
 }
 .c-icon {
-    color: var(--purple) !important;
+    color: var(--primary) !important;
 }
 .c-unified_member__display-name {
 color: var(--primary);
@@ -234,9 +240,7 @@ color: var(--primary) !important;
 .c-search__tab {
 color: var(--primary) !important;
 }
-.c-presence--active {
-color: var(--purple) !important;
-}
+
 .p-notification_bar__section {
 color: var(--green) !important;
 }
@@ -267,6 +271,10 @@ color: var(--green) !important;
 .c-button-unstyled {
     color: var(--primary);
 }
+
+.c-presence--active {
+    color: var(--green) !important;
+    }
 `
     // Insert a style tag into the wrapper view
     cssPromise.then(css => {
