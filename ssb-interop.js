@@ -144,6 +144,10 @@ color: #1264a3 !important;
     color: var(--black) !important;
 }
 
+.p-channel_sidebar__channel:hover:before {
+    color: var(--black) !important;
+}
+
 .p-channel_sidebar__channel--selected {
     border: solid var(--primary) !important;
     border-width: 2px 2px 2px 0 !important;
@@ -168,7 +172,7 @@ color: #1264a3 !important;
 color: var(--accent);
 }
 .c-icon {
-color: var(--primary) !important;
+    color: var(--purple) !important;
 }
 .c-unified_member__display-name {
 color: var(--primary);
@@ -231,7 +235,7 @@ color: var(--primary) !important;
 color: var(--primary) !important;
 }
 .c-presence--active {
-color: var(--green) !important;
+color: var(--purple) !important;
 }
 .p-notification_bar__section {
 color: var(--green) !important;
